@@ -1,16 +1,16 @@
 {
-    "name": "docker_web_app",
-    "version": "2.0.0-SNAPSHOT",
-    "description": "Node.js on Docker",
-    "author": "First Last <first.last@example.com>",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js"
-    },
-    "dependencies": {
-      "express": "^4.16.1"
-    }
-    "publishConfig": {
+  "name": "docker_web_app",
+  "version": "2.0.0-SNAPSHOT",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "publishConfig": {
     "registry": "http://192.168.1.19:8081/repository/nodejsapp/"
   }
 }
